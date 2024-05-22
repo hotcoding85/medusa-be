@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node amazon-seed.js --dataset-path ../amazon.tsv"
+  },
+  "dependencies": {
+    "arg": "^5.0.1",
+    "meilisearch": "^0.24.0",
+    "papaparse": "^5.3.1"
+  }
+}
